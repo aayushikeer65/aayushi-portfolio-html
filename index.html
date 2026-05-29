@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aayushi Keer — Graphic Designer | Portfolio</title>
+<meta name="description" content="Portfolio of Aayushi Keer — graphic designer crafting brand identities, illustration, packaging and social design inspired by Krishna aesthetics." />
+<meta property="og:title" content="Aayushi Keer — Graphic Designer" />
+<meta property="og:description" content="Brand identity, illustration, packaging & social design with a divine Indian sensibility." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <nav class="nav-inner">
+      <a href="#home" class="brand"><span class="om">ॐ</span> Designer Aayushi</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <img src="assets/peacock-feather.jpg" alt="" aria-hidden="true" class="feather feather-right float" />
+    <img src="assets/peacock-feather.jpg" alt="" aria-hidden="true" class="feather feather-left" />
+    <div class="hero-inner">
+      <p class="sanskrit fade-up">॥ श्री कृष्णाय नमः ॥</p>
+      <h1 class="display fade-up d1">Designing with the <em>rhythm</em> of the flute.</h1>
+      <p class="lead fade-up d2">Graphic Designer · Visual Storyteller · Brand Stylist</p>
+      <div class="cta-row fade-up d3">
+        <a href="#work" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-ghost">Let's Collaborate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="about-grid">
+      <div><img src="assets/bansuri.jpg" alt="Decorated bansuri illustration" loading="lazy" class="about-img" /></div>
+      <div>
+        <p class="kicker">About</p>
+        <h2 class="h2">A little about me</h2>
+        <p class="sanskrit quote">"जैसे मोरपंख में हर रंग अपनी कहानी कहता है, वैसे ही हर डिज़ाइन में मेरी आत्मा बसती है।"</p>
+        <p class="muted">I'm <strong>Aayushi Keer</strong>, a graphic designer who finds inspiration in the timeless aesthetics of Lord Krishna — the divine play of color, rhythm and emotion. My work blends traditional Indian motifs with modern visual language to create designs that feel both sacred and contemporary.</p>
+        <p class="muted">From brand identities to social campaigns, illustrations to print collateral — I create visuals that resonate.</p>
+        <div class="tags" id="skillTags"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="section section-alt">
+    <div class="container">
+      <div class="center mb">
+        <p class="kicker">Portfolio</p>
+        <h2 class="h2">Selected Work</h2>
+        <p class="muted">A glimpse into recent projects — each a small leela of color and form.</p>
+      </div>
+      <div class="work-grid" id="workGrid"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="center mb">
+        <p class="kicker">Services</p>
+        <h2 class="h2">What I Offer</h2>
+        <p class="muted">Thoughtful design services — from the first sketch to the final delivery.</p>
+      </div>
+      <div class="services-grid" id="servicesGrid"></div>
+
+      <div class="process">
+        <h3 class="h3 center">My Process</h3>
+        <div class="process-grid" id="processGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="container narrow">
+      <div class="center mb">
+        <p class="kicker">Contact</p>
+        <h2 class="h2">Get in Touch</h2>
+        <p class="muted">Tell me about your project — I'll get back to you over a cup of chai.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="card contact-card">
+          <a href="mailto:aayushikeer65@gmail.com" class="contact-link">
+            <span class="circle">✉</span> aayushikeer65@gmail.com
+          </a>
+          <a href="https://www.instagram.com/designeraayushi9" target="_blank" rel="noopener" class="contact-link">
+            <span class="circle">◎</span> @designeraayushi9
+          </a>
+          <p class="small muted divider">Prefer to write directly? Use the email above — replies usually within 24 hours.</p>
+        </div>
+        <!-- Replace the iframe src with your Google Form embed URL -->
+        <div class="card form-card">
+          <iframe title="Client Inquiry Form" src="https://docs.google.com/forms/d/e/1FAIpQLScrTRr2seGQcZ6EJNU4Z7DplBhw5gPWltQ5GFTj3Bl8c3oh3g/viewform?usp=dialog" loading="lazy">Loading…</iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">© <span id="year"></span> Aayushi Keer · Designed with <span class="accent">❤</span> &amp; devotion</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
