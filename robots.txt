@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aayushikeer65.github.io/aayushi-portfolio-html/sitemap.xml
